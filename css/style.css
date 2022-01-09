@@ -1,0 +1,276 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+.content{
+    width: 1024px;
+    margin: 0 auto;
+}
+header{
+    height: 800px;
+    background-image: url(../img/Background1.png),url(../img/screw-1924173_1920.png);
+    background-size: 100% 100%, 100% 100%;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.main_menu{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.welcome{
+    margin-top: 70px;
+    color: black;
+    font-size: 40px;
+}
+h1{
+    font-size: 60px;
+}
+.header_text{
+    max-width: 484px;
+    margin-top: 40px;
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+.link_conct{
+    padding: 20px 30px;
+    background-color: black;
+    color: white;
+}
+.link_about_factory{
+    margin-left: 15px;
+    padding: 20px 30px;
+    background-color:white ;
+    color:black ;
+}
+.butons{
+    margin-top: 60px;
+}
+.about{
+    margin: 160px 0px;
+    background-image: url(../img/Rectangle\ 4.png);
+    background-size: cover;
+    padding: 40px 0px;
+}
+.about_content{
+    display: flex;
+    justify-content: space-between;
+}
+.circle{
+    border: 30px solid #f6dc67;
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+}
+.circle img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.all_about_text{
+    text-align: right;
+    max-width: 500px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+h2{
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.about_text{
+    margin-top: 15px;
+    font-size: 17px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.link_about{
+    padding: 20px 30px;
+    background-color: black;
+    color: white;
+}
+.product{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 50px 0px;
+    background-color: black;
+}
+.product_text{
+    margin-top: 15px;
+    font-size: 13px;
+    max-width: 900px;
+    line-height: 22px;
+    margin-bottom: 100px;
+}
+.slider{
+    width: 1010px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 300px;
+}
+.all_slider{
+    margin: 0 auto;
+    width: 1010px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.slider_line{
+    display: flex;
+    position: absolute;
+    height: 300px;
+    left: 0;
+    transition: 1s;
+
+}
+.slider_element{
+    position: relative;
+    margin-left: 12.5px;
+    min-width: 320px;
+    height: 300px;
+    background-color: #f3cf2d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.slider_element_img{
+    max-height: 220px;
+}
+.slider_element_text{
+
+    text-transform: uppercase;
+    position:absolute ;
+    bottom: 5px;
+}
+.prev,.next{
+    padding: 16px 35px;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+}
+.prev{
+    left: -100px;
+}
+.next{
+    right: -100px;
+}
+.poduct_more{
+    padding: 20px 30px;
+    background-color:white ;
+    color:black ;
+}
+.contact{
+    padding: 60px 0px;
+    background-image: url(../img/BG.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contact_form{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3cf2d ;
+    padding: 30px 90px;
+    text-align: center;
+}
+.contact_form h2{
+    color: white;
+}
+.contact_form form{
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    align-items: center;
+}
+.name, .tel,.email,.massange{
+    padding: 23px 17px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.massange{
+    height: 130px;
+    margin-bottom: 60px;
+}
+.btn_contact{
+    width: 227px;
+    height: 60px;
+    background-color: #000000;
+    color: white;
+}
+footer{
+    color:#fff;
+    font-family: 'Poppins', sans-serif;
+    background-color: #212120;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+    padding-bottom: 0px;
+}
+h3{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+footer form{
+    font-size: 0px;
+    width: 700px;
+}
+.sub_email,.btn_sub{
+    padding: 12px 8px;
+    font-size: 14px;
+}
+.sub_email{
+    width: 550px;
+}
+.btn_sub{
+    width: 150px;
+    background-color: #f3cf2d;
+}
+.info{
+    margin-top: 30px;
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+.adres,.our_tel,.our_email{
+    display: flex;
+    align-items: center;
+}
+.adres img,.our_tel img,.our_email img{
+    margin-right: 20px;
+}
+.social{
+    margin-top: 30px;
+    word-spacing:20px;
+}
+.separator{
+    margin-top: 30px;
+    width: 1024px;
+    height: 3px;
+    background-color: #fefefe;
+}
+.PS{
+    margin: 20px 0px;
+}
